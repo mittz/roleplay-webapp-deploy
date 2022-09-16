@@ -47,6 +47,8 @@ terraform init
 terraform apply -var="project_id=${GOOGLE_CLOUD_PROJECT}" -var="database_datastudio_password=${DATABASE_DATASTUDIO_PASSWORD}" -var="data_studio_url=${DATASTUDIO_URL}" -var="portal_admin_api_key=${PORTAL_ADMIN_API_KEY}"
 ```
 
+Once you deployed the resources, click on "RUN" of both `assess` and `portal` from Cloud Build Triggers.
+
 # Test submission
 
 Test if you can submit your request through the endpoint you get from Cloud Run.
